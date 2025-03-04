@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import gspread
-import streamlit as st
 from oauth2client.service_account import ServiceAccountCredentials
 from streamlit_option_menu import option_menu
 from PIL import Image
