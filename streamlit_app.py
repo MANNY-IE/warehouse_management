@@ -228,7 +228,7 @@ if page == "RECEIVE FORM":
                 new_row = received_data.values.tolist()[0]
 
                 # Append the new row to the sheet
-                sheet.append_row(new_row)
+                sheet.append_row(new_row, 1)
 
 if page == "RELEASE FORM":
     # Display Title and Description with center alignment and design
@@ -295,7 +295,7 @@ if page == "RELEASE FORM":
                 new_row = received_data.values.tolist()[0]
 
                 # Append the new row to the sheet
-                sheet.append_row(new_row)
+                sheet.append_row(new_row, 1)
 
 if page == "RECEIVE PALLET POSITION":
     st.markdown(
@@ -376,7 +376,7 @@ if page == "RECEIVE PALLET POSITION":
                 new_row = received_data.values.tolist()[0]
 
                 # Append the new row to the sheet
-                sheet.append_row(new_row)
+                sheet.append_row(new_row, 1)
 
 if page == "RELEASE PALLET POSITION":
     st.markdown(
@@ -458,7 +458,7 @@ if page == "RELEASE PALLET POSITION":
                 new_row = received_data.values.tolist()[0]
 
                 # Append the new row to the sheet
-                sheet.append_row(new_row)
+                sheet.append_row(new_row, 1)
 
 
     
